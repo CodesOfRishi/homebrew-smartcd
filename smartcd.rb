@@ -4,13 +4,12 @@
 class Smartcd < Formula
   desc "A cd command with improved and extended usability features to quickly navigate your Linux filesystem."
   homepage "https://github.com/CodesOfRishi/smartcd"
-  url "https://github.com/CodesOfRishi/smartcd/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "f0ef6a9e787f65b472c0b4ba3797c0f2af2babd9170285bfbb3eb9b926b5d29a"
+  url "https://github.com/CodesOfRishi/smartcd/archive/refs/tags/v2.0.1.tar.gz"
+  sha256 "c462e1cf73cebca37d238237f34a9d148372a5ad7abe7f3348fcf0e5294c6e88"
   license "MIT"
 
   # depends_on "cmake" => :build
   depends_on 'fzf'
-  depends_on 'fd'
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
