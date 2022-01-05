@@ -4,8 +4,8 @@
 class Smartcd < Formula
   desc "A cd command with improved and extended usability features to quickly navigate your Linux filesystem."
   homepage "https://github.com/CodesOfRishi/smartcd"
-  url "https://github.com/CodesOfRishi/smartcd/archive/refs/tags/v3.2.1.tar.gz"
-  sha256 "c469116ae54bb693909c9ef4401494145a6ba91681ed4c7efcdf18553cebcd37"
+  url "https://github.com/CodesOfRishi/smartcd/archive/refs/tags/v3.2.5.tar.gz"
+  sha256 "74fd779e66be38d0250717a7177dc7ed9b1fa2d1196a40e041c5b07c9a76bd17"
   license "MIT"
 
   # depends_on "cmake" => :build
